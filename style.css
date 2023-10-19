@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  color: #c8d2d9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* border: 1px solid yellow; */
+}
+
+h4 {
+  font-size: 25px;
+}
+
+div {
+  width: 300px;
+  height: 400px;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 0 20px 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+strong {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+aside {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: #42e062;
+  border: 1px solid #42e062;
+  border-radius: 15%;
+  padding: 3px 10px;
+}
+
+.imagen-1 {
+  background-image: url(images/gallery_photo_1.avif);
+  background-size: 100%;
+  background-position: bottom;
+}
+/* ------------------------- IMAGENES -------------------------- */
+.imagen-2 {
+  background-image: url(images/gallery_photo_2.avif);
+  background-position-x: 75%;
+  background-position-y: 10%;
+}
+
+.imagen-3 {
+  background-image: url(images/gallery_photo_3.avif);
+  background-size: cover;
+  background-position-x: 15%;
+}
+
+.imagen-4 {
+  background-image: url(images/gallery_photo_4.avif);
+  background-size: 150px;
+}
+
+.imagen-5 {
+  background-image: url(images/gallery_photo_5.avif);
+  background-position: bottom right;
+}
+
+.imagen-6 {
+  background-image: url(images/gallery_photo_6.avif);
+  background-size: cover;
+}
